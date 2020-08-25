@@ -75,6 +75,9 @@ server.use(function (req, res) {
     res.status(404).render("not-found", { errodata: errodata });
 });
 
-server.listen(5000, function () {
-    console.log("Server is runnning");
-});
+// server.listen(5000, function () {
+//     console.log("Server is runnning");
+// });
+
+var porta = process.env.PORT || 8080;
+app.listen(porta);
