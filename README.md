@@ -17,7 +17,7 @@ ___
 
 ___
 
-<img src="../../../../Imagens/SitePessoal.png" width="1200">
+<img src="https://i.imgur.com/KlW4P9c.png" width="1200">
 
 ## :information_source: Sobre
 
