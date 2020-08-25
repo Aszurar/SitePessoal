@@ -1,0 +1,112 @@
+body {
+  color: var(--color-bluebold);
+}
+
+/*==========CARDS==========*/
+body h1 {
+  text-align: center;
+  overflow: visible;
+}
+
+.cards-projects {
+  max-width: 1590px;
+  margin: 2% auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card-project {
+  background-color: var(--color-dark-light);
+  border-radius: 15px;
+  border: 3px solid var(--color-black);
+  display: grid;
+}
+
+.card-project:hover {
+  border: 3px solid var(--color-bluebold);
+  transition: 800ms;
+}
+
+.card-project a {
+  text-decoration: none;
+}
+
+.image-project img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.card-project__technologies {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.card-project__technologies i {
+  margin: 0 8px;
+}
+
+.card-project__info,
+.card-project__content {
+  padding: 24px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+.card-project__content {
+  color: var(--color-bluebold);
+  background-color: var(--color-black);
+  border-top: 3px solid var(--color-bluebold);
+  border-bottom: 3px solid var(--color-bluebold);
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-project__content:hover {
+  border-top: 3px solid var(--color-black);
+  border-bottom: 3px solid var(--color-black);
+  color: var(--color-black);
+  background-color: var(--color-bluebold);
+  transition: 800ms;
+}
+
+.card-project__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.card-project__type {
+  background-color: var(--color-bluebold);
+  color: var(--color-black);
+  filter: brightness(90%);
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+
+}
+
+/* =====Featured===== */
+.featured-wrapper.image-project{
+  position: relative;
+}
+.featured{
+  position: absolute;
+  background: #f7d05f;
+  color: var(--color-black);
+  padding: 2px 8px;
+  border-radius: 16px;
+  left: 5px;
+  top: -10px;
+  font-weight: bold;
+}
+
