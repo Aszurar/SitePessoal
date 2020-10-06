@@ -1,4 +1,4 @@
-# SitePessoal
+# SitePessoal | Projeto Pessoal
 Site Pessoal criado e sendo atualizado com o passar das fases do curso **Bootcamp LaunchBase da Rocketseat.**
 ___
 <h2 align="center">Site Pessoal</h2>
